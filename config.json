@@ -1,0 +1,16 @@
+{
+    "newsapi" :{
+        "key": "4076e9766f7d486a93fed6245159e067",
+        "api_page_size": 100,
+        "source": "bbc-news,cnn,fox-news,nbc-news,the-guardian-uk,the-new-york-times,the-washington-post,usa-today,independent,daily-mail"
+    },
+    "kafka": {
+      "bootstrap_servers": "localhost:9092",
+      "topic": "news-topic"
+    },
+    "hdfs": {
+        "url": "http://namenode:9870",
+        "path": "/user/spark",
+        "file_name": "news_data_articles.txt"
+    }
+}
