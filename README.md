@@ -1,4 +1,4 @@
-# News Sentiment Analysis - Using ETL-Pipeline-Kafka-HDFS-Spark
+# Sentiment Analysis for News with ETL Pipeline using Kafka, Hadoop, and Spark
 
 Utilizing the power of Hadoop, Apache Spark and machine learning, we analyze News content to determine underlying sentiments.
 
@@ -85,6 +85,12 @@ This Readme.md will walk you through the entire process, from setting up data st
    ```bash
    docker-compose up -d
    ```
+
+| Service | URL                                      |
+| ------- | ---------------------------------------- |
+| Hadoop  | [Hadoop UI](http://localhost:9870)       |
+| Spark   | [Spark Master UI](http://localhost:4040) |
+| Jupyter | [Jupyter UI](http://localhost:8888)      |
 
 ## Usage
 
