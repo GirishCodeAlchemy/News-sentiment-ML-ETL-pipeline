@@ -1,5 +1,9 @@
 # Sentiment Analysis for News with ETL Pipeline using Kafka, Hadoop, and Spark
 
+<p align="center">
+  <img src="./assets/3-spark-etl.png" width="600" alt="Spark etl">  
+</p>
+
 Utilizing the power of Hadoop, Apache Spark and machine learning, we analyze News content to determine underlying sentiments.
 
 This Readme.md will walk you through the entire process, from setting up data streaming with Zookeeper and Kafka, to using Spark for data processing and machine learning for sentiment classification
